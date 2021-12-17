@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './index.css'
+import { createApp } from "vue"
+import { autoComponentsRegister } from "./autoImport"
+import App from "./App.vue"
+import "./index.css"
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+autoComponentsRegister(app.component)
+
+app.mount("#app")

@@ -1,5 +1,5 @@
 {
-  "name": "component-builder",
+  "name": "blaker",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

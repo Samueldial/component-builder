@@ -8,6 +8,7 @@ module.exports = {
           dark: "#312f2f",
           darkDarken: "#131212",
           gray: "#a7a7ab",
+          grayDarken: "#505054",
           lightGray: "#d9d8d8",
           light: "#f8fafc",
           red: "#e31836",
@@ -21,6 +22,9 @@ module.exports = {
         regular: ["JetBrainsMonoRegular"],
         medium: ["JetBrainsMonoMedium"],
         bold: ["JetBrainsMonoBold"]
+      },
+      boxShadow: {
+        smooth: "0 0 0 2px rgba(167, 167, 171, 0.5)"
       }
     }
   },
